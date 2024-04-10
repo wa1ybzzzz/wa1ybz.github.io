@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Hugo Website</title>
+    <link>https://www.wa1ybz.github.io/</link>
+    <description>Recent content on My Hugo Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Apr 2024 16:59:30 +0800</lastBuildDate>
+    <atom:link href="https://www.wa1ybz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>https://www.wa1ybz.github.io/posts/first/</link>
+      <pubDate>Tue, 09 Apr 2024 16:59:30 +0800</pubDate>
+      <guid>https://www.wa1ybz.github.io/posts/first/</guid>
+      <description># iV1 #### 深克隆与浅克隆 &amp;gt; ***深克隆和浅克隆的区别是什么？***** &amp;gt; 浅克隆只会复制对象本身，不会复制对象内部的引用对象，也就是说如果是数组的话，数组的地址也会被复制，新数组和原数组会共享一个地址，修改新数组后原数组的值也会改变。而深克隆会复制对象及其内部的所有引用对象，与原来的对象相比是完全独立的。 &amp;gt;***如何实现深克隆？***** &amp;gt;有两种方式：第一种是通过流实现，通过将对象序列化，再反序列化创建一个新的对象。第二种是手动复制对象，将原始对象的所有属性值逐一复制到新对象里，如果原始对象时引用数据类型，则需要对所有属性递归的复制到新对象里 #### 局部内部类与局部变量 &amp;gt;局部内部类访问局部变量时，局部变量浅要加final修饰，因为局部内部类对象可能在方法执行完后仍然存在，局部变量如果不是final类型将可能被销毁或者修改，会导致局部内部类再次访问局部变量的时候出错。</description>
+    </item>
+  </channel>
+</rss>

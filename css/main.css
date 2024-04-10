@@ -1,0 +1,35 @@
+/* 导航栏样式 */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #F3F2F2; /* 导航栏背景颜色 */
+    color: #000; /* 导航栏文本颜色 */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* 导航链接样式 */
+.sidebar a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+/* 主内容区域样式 */
+main {
+    margin-left: 200px;
+    padding: 20px;
+    background-color: #E6E5E4; /* 页面背景颜色 */
+}
+
+/* 页脚样式 */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #F3F2F2; /* 页脚背景颜色 */
+    color: #000;
+}
